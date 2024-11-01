@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   fe: djajcevic/demo-projec-1-frontend
-  bff: djajcevic/demo-projec-1
+  bff: djajcevic/demo-projec-1-bff
   # IfNotPresent is recommended, but for demo purposes we will use Always
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
